@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C6DCB36FF9BA9E61F85D80F6718409E /* TPUnionPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C51E52C303D54F2D2FCF55D764B3F0E3 /* TPUnionPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D90CD57CAD4E1ED7DCC9C18FFC911DA /* TPUnionPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBFF190CE2E43076DC371B2F281F2DC /* TPUnionPay-dummy.m */; };
 		435BB34230A3188AF6612CCE91565C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4568A677BAAA749AE5E7559E7229067C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F69B3EFDD7A8A94C93A6BCA584322C2 /* ReplaceMe.m */; };
 		48B181663A5902989028E505DC497CF9 /* Pods-TPUnionPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C07DAADC193408C09B57B63EF994919C /* Pods-TPUnionPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		807373DE7CCF295A70A0C5AA69333795 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AF905EEC2283258FA9D712576E1F24FC /* ReplaceMe.m */; };
+		493FBBBD6ADE179C071C5E472957D5FF /* TPUnionPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C51E52C303D54F2D2FCF55D764B3F0E3 /* TPUnionPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DC510971A63A94B09B8FF88A38A809A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9B6CCA47E579D2171C1E3A31BE8D72E4 /* TPUnionPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBFF190CE2E43076DC371B2F281F2DC /* TPUnionPay-dummy.m */; };
 		AAE59B07DFBCCF17E7D2D5D30F401F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AE4069151E54030A008E56C2 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4069121E54030A008E56C2 /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE4069161E54030A008E56C2 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4069141E54030A008E56C2 /* libPaymentControl.a */; };
+		AE4069181E54033D008E56C2 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4069171E54033D008E56C2 /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE40691A1E540392008E56C2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4069191E540392008E56C2 /* CFNetwork.framework */; };
+		AE40691C1E5403A6008E56C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40691B1E5403A6008E56C2 /* SystemConfiguration.framework */; };
+		AE40691E1E5403DD008E56C2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40691D1E5403DD008E56C2 /* libz.tbd */; };
+		AE4069201E540415008E56C2 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40691F1E540415008E56C2 /* libstdc++.tbd */; };
+		B57C49FA7B301BD9A171F83C1D92597A /* TPUnionPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 59ED3610A82F4641070066C8A66CCDEC /* TPUnionPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B634464E6DB8FD5145D6AA3FB7132ABD /* Pods-TPUnionPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D3AD04EAFC0735FFECC831BB68E5CF /* Pods-TPUnionPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D00924954B297E3B0CA53A2CFCD46FA4 /* Pods-TPUnionPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E57747AA49E64F6D6B0189E7FAC1 /* Pods-TPUnionPay_Example-dummy.m */; };
+		EBA1F3BC7F1A48D164348E9956B56DE7 /* TPUnionPay.mm in Sources */ = {isa = PBXBuildFile; fileRef = CFE306A90515F98D15FD4B323AEFE565 /* TPUnionPay.mm */; };
 		F66D759FDEF71CA85BB1471FF5A86E67 /* Pods-TPUnionPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D20BEB8F2A5EB3F576BE29C140DAAF /* Pods-TPUnionPay_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -39,27 +48,36 @@
 		51D7B09FFEBC72B4F0E11C80BB2B43A5 /* TPUnionPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPUnionPay.xcconfig; sourceTree = "<group>"; };
 		53D3AD04EAFC0735FFECC831BB68E5CF /* Pods-TPUnionPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPUnionPay_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5721BF9C694E0889A44CA3A46352EF3E /* Pods-TPUnionPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPUnionPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		59ED3610A82F4641070066C8A66CCDEC /* TPUnionPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPUnionPay.h; sourceTree = "<group>"; };
 		6118C48C441096D411ED36054092F601 /* Pods-TPUnionPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPUnionPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		633AA43E6386561F6029F270C98ED9B0 /* Pods-TPUnionPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TPUnionPay_Example.modulemap"; sourceTree = "<group>"; };
+		633AA43E6386561F6029F270C98ED9B0 /* Pods-TPUnionPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPUnionPay_Example.modulemap"; sourceTree = "<group>"; };
 		642AC0B2D3E629F3547CC2381162BFF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68F1C267332ECD710476A375B2E428DA /* Pods-TPUnionPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPUnionPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CFE445257D25304ACB9C78DB829807D /* Pods_TPUnionPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPUnionPay_Example.framework; path = "Pods-TPUnionPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFE445257D25304ACB9C78DB829807D /* Pods_TPUnionPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPUnionPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A02CBD6AFFA097C4173C84D804700D /* Pods-TPUnionPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPUnionPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		821115AB448E32E428725952E533C598 /* TPUnionPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPUnionPay-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96D53D6BB343DFCC25543FE80A105428 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97778BC2F7FFB24EACF5ACE1A2500E30 /* Pods-TPUnionPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TPUnionPay_Tests.modulemap"; sourceTree = "<group>"; };
+		97778BC2F7FFB24EACF5ACE1A2500E30 /* Pods-TPUnionPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPUnionPay_Tests.modulemap"; sourceTree = "<group>"; };
+		9F69B3EFDD7A8A94C93A6BCA584322C2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		A770C2CE7FBFD41ADCA2FBF27693F72C /* Pods-TPUnionPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPUnionPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AEBB94B152FEF04E387B2861B8304ECB /* TPUnionPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TPUnionPay.modulemap; sourceTree = "<group>"; };
-		AF905EEC2283258FA9D712576E1F24FC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		AE4069121E54030A008E56C2 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		AE4069141E54030A008E56C2 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		AE4069171E54033D008E56C2 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		AE4069191E540392008E56C2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		AE40691B1E5403A6008E56C2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		AE40691D1E5403DD008E56C2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		AE40691F1E540415008E56C2 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		AEBB94B152FEF04E387B2861B8304ECB /* TPUnionPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TPUnionPay.modulemap; sourceTree = "<group>"; };
 		B1FE2A4403F9A2DDEC4A2F7EF386E954 /* Pods-TPUnionPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPUnionPay_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BF703570E09B5839ADCCDCBA9634880D /* Pods-TPUnionPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPUnionPay_Example-resources.sh"; sourceTree = "<group>"; };
 		C07DAADC193408C09B57B63EF994919C /* Pods-TPUnionPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPUnionPay_Example-umbrella.h"; sourceTree = "<group>"; };
-		C3D0F6A869A82FC0571C537EC03A939B /* TPUnionPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPUnionPay.framework; path = TPUnionPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D0F6A869A82FC0571C537EC03A939B /* TPUnionPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPUnionPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51E52C303D54F2D2FCF55D764B3F0E3 /* TPUnionPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPUnionPay-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFE306A90515F98D15FD4B323AEFE565 /* TPUnionPay.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = TPUnionPay.mm; sourceTree = "<group>"; };
 		DEBFF190CE2E43076DC371B2F281F2DC /* TPUnionPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPUnionPay-dummy.m"; sourceTree = "<group>"; };
-		E5983C6DE680B1AB70CBEAD0E79FBF57 /* Pods_TPUnionPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPUnionPay_Tests.framework; path = "Pods-TPUnionPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5983C6DE680B1AB70CBEAD0E79FBF57 /* Pods_TPUnionPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPUnionPay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E900E57747AA49E64F6D6B0189E7FAC1 /* Pods-TPUnionPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPUnionPay_Example-dummy.m"; sourceTree = "<group>"; };
 		EEB6E1081F78C54D31A93E5058438502 /* Pods-TPUnionPay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPUnionPay_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +95,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4069201E540415008E56C2 /* libstdc++.tbd in Frameworks */,
+				AE40691E1E5403DD008E56C2 /* libz.tbd in Frameworks */,
+				AE40691C1E5403A6008E56C2 /* SystemConfiguration.framework in Frameworks */,
+				AE40691A1E540392008E56C2 /* CFNetwork.framework in Frameworks */,
+				AE4069161E54030A008E56C2 /* libPaymentControl.a in Frameworks */,
 				435BB34230A3188AF6612CCE91565C01 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +115,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AB31D611E647C19F3BDF6EFAAE3DD61 /* TPUnionPay */ = {
+			isa = PBXGroup;
+			children = (
+				CD2193484EFF45D6D22857743DE8469E /* Classes */,
+			);
+			path = TPUnionPay;
+			sourceTree = "<group>";
+		};
 		36F33EE8D7723E6FB9FBA2C2820F6878 /* Pods-TPUnionPay_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,15 +139,6 @@
 			);
 			name = "Pods-TPUnionPay_Tests";
 			path = "Target Support Files/Pods-TPUnionPay_Tests";
-			sourceTree = "<group>";
-		};
-		4411AB13761C778B6291BC82DE8BFC7D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AF905EEC2283258FA9D712576E1F24FC /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		57105A39E308CBFE8C86B44A25615FA2 /* Products */ = {
@@ -183,28 +205,60 @@
 			);
 			sourceTree = "<group>";
 		};
-		8F228296D1D9290E15C82B81C9F72463 /* TPUnionPay */ = {
+		AE4069101E54030A008E56C2 /* paymentcontrol */ = {
 			isa = PBXGroup;
 			children = (
-				4411AB13761C778B6291BC82DE8BFC7D /* Classes */,
+				AE4069111E54030A008E56C2 /* inc */,
+				AE4069131E54030A008E56C2 /* libs */,
 			);
-			name = TPUnionPay;
-			path = TPUnionPay;
+			path = paymentcontrol;
+			sourceTree = "<group>";
+		};
+		AE4069111E54030A008E56C2 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				AE4069121E54030A008E56C2 /* UPPaymentControl.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		AE4069131E54030A008E56C2 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				AE4069141E54030A008E56C2 /* libPaymentControl.a */,
+			);
+			path = libs;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE40691F1E540415008E56C2 /* libstdc++.tbd */,
+				AE40691D1E5403DD008E56C2 /* libz.tbd */,
+				AE40691B1E5403A6008E56C2 /* SystemConfiguration.framework */,
+				AE4069191E540392008E56C2 /* CFNetwork.framework */,
+				AE4069101E54030A008E56C2 /* paymentcontrol */,
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD2193484EFF45D6D22857743DE8469E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE4069171E54033D008E56C2 /* UPPaymentControl.h */,
+				9F69B3EFDD7A8A94C93A6BCA584322C2 /* ReplaceMe.m */,
+				59ED3610A82F4641070066C8A66CCDEC /* TPUnionPay.h */,
+				CFE306A90515F98D15FD4B323AEFE565 /* TPUnionPay.mm */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		CE41C879091933260BFD66AC62FF0246 /* TPUnionPay */ = {
 			isa = PBXGroup;
 			children = (
 				EC0BE74511E580B9D0DB1255BD4AC1A1 /* Support Files */,
-				8F228296D1D9290E15C82B81C9F72463 /* TPUnionPay */,
+				0AB31D611E647C19F3BDF6EFAAE3DD61 /* TPUnionPay */,
 			);
 			name = TPUnionPay;
 			path = ../..;
@@ -235,11 +289,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		492FD1BCDFECF2297A58E03DFDA90FA0 /* Headers */ = {
+		5C3AE657C1EB07623086684B236EECAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C6DCB36FF9BA9E61F85D80F6718409E /* TPUnionPay-umbrella.h in Headers */,
+				AE4069181E54033D008E56C2 /* UPPaymentControl.h in Headers */,
+				AE4069151E54030A008E56C2 /* UPPaymentControl.h in Headers */,
+				493FBBBD6ADE179C071C5E472957D5FF /* TPUnionPay-umbrella.h in Headers */,
+				B57C49FA7B301BD9A171F83C1D92597A /* TPUnionPay.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +315,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C358FDEF74B5FECEC459DCDA85A4D74B /* Build configuration list for PBXNativeTarget "TPUnionPay" */;
 			buildPhases = (
-				72DE6C9E3AABB38C4415067B695BB5C8 /* Sources */,
+				B0567EC3D3A75ACEC824D66918F7055C /* Sources */,
 				5B2FCBACE15CD7ABCE670222A34342BC /* Frameworks */,
-				492FD1BCDFECF2297A58E03DFDA90FA0 /* Headers */,
+				5C3AE657C1EB07623086684B236EECAF /* Headers */,
 			);
 			buildRules = (
 			);
@@ -343,20 +400,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72DE6C9E3AABB38C4415067B695BB5C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				807373DE7CCF295A70A0C5AA69333795 /* ReplaceMe.m in Sources */,
-				0D90CD57CAD4E1ED7DCC9C18FFC911DA /* TPUnionPay-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8575135B67979C2181927F73C9A3601E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F66D759FDEF71CA85BB1471FF5A86E67 /* Pods-TPUnionPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0567EC3D3A75ACEC824D66918F7055C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568A677BAAA749AE5E7559E7229067C /* ReplaceMe.m in Sources */,
+				9B6CCA47E579D2171C1E3A31BE8D72E4 /* TPUnionPay-dummy.m in Sources */,
+				EBA1F3BC7F1A48D164348E9956B56DE7 /* TPUnionPay.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +450,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/paymentcontrol/libs",
+				);
 				MODULEMAP_FILE = "Target Support Files/TPUnionPay/TPUnionPay.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = TPUnionPay;
@@ -458,6 +520,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/paymentcontrol/libs",
+				);
 				MODULEMAP_FILE = "Target Support Files/TPUnionPay/TPUnionPay.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = TPUnionPay;

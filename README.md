@@ -5,6 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/TPUnionPay.svg?style=flat)](http://cocoapods.org/pods/TPUnionPay)
 [![Platform](https://img.shields.io/cocoapods/p/TPUnionPay.svg?style=flat)](http://cocoapods.org/pods/TPUnionPay)
 
+
+## Release Notes
+### 1.0.0   
+基于SDK 3.3.6版本 
+
+
+
 ## Usage
     var union=new UnionPay();
     union.tn="201605031034241756648";

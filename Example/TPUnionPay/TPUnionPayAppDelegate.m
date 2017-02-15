@@ -7,6 +7,8 @@
 //
 
 #import "TPUnionPayAppDelegate.h"
+#import <TPUnionPay/UPPaymentControl.h>
+
 
 @implementation TPUnionPayAppDelegate
 

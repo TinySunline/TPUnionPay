@@ -7,6 +7,8 @@
 //
 
 #import "TPUnionPayViewController.h"
+#import <TPUnionPay/TPUnionPay.h>
+
 
 @interface TPUnionPayViewController ()
 
@@ -18,6 +20,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    TPUnionPay *unionPay = [[TPUnionPay alloc] init];
+    [unionPay pay];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
