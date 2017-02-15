@@ -30,7 +30,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-1.首先，在AppDelegate文件中引入#import <TPUnionPay/UPPaymentControl.h>。![image](http://github.com/TinySunline/TPUnionPay/raw/master/READMESource/1.png)  
+1.首先，在AppDelegate文件中引入#import <TPUnionPay/UPPaymentControl.h>。![](http://github.com/TinySunline/TPUnionPay/raw/master/READMESource/1.png)  
 支付控件结果处理函数handlePaymentResult: completeBlock:需要在工程AppDelegate文件的application: openURL: options: 方法中进行调用。添加如下代码:
     
         //通联支付
@@ -76,13 +76,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
  
 2.工程配置  
 2.1在工程info.plist设置中添加一个URL Types回调协议(在UPPayDemo工程中使用“UPPayDemo”作为协议)，用于在支付完成后返回商户客户端。
-     ![image](http://github.com/TinySunline/TPUnionPay/raw/master/READMESource/2.png) 
+     ![](http://github.com/TinySunline/TPUnionPay/raw/master/READMESource/2.png) 
 2.2在Xcode7.0之后的版本中进行开发，需要在工程对应的plist文件中，添加LSApplicationQueriesSchemes  Array并加入uppaysdk、uppaywallet、uppayx1、uppayx2、uppayx3五个item，具体设置可参考以下截图：
-    ![image](http://github.com/TinySunline/TPUnionPay/raw/master/READMESource/3.png) 
+    ![](http://github.com/TinySunline/TPUnionPay/raw/master/READMESource/3.png) 
        
 3.注册JS扩展  
 在tinyPlus.plist中注册JS扩展
-    ![image](http://github.com/TinySunline/TPUnionPay/raw/master/READMESource/4.png)
+    ![](http://github.com/TinySunline/TPUnionPay/raw/master/READMESource/4.png)
 
 ## Installation
 
