@@ -30,7 +30,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-1.首先，在AppDelegate文件中引入#import <TPUnionPay/UPPaymentControl.h>。![](http://github.com/TinySunline/TPUnionPay/raw/master/READMESource/1.png)  
+1.首先，在AppDelegate文件中引入头文件 TPUnionPay/UPPaymentControl.h。![index](http://github.com/TinySunline/TPUnionPay/raw/master/READMESource/1.png)  
 支付控件结果处理函数handlePaymentResult: completeBlock:需要在工程AppDelegate文件的application: openURL: options: 方法中进行调用。添加如下代码:
     
         //通联支付
