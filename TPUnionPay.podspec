@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kingdomrain' => 'bygd2014@sina.com' }
-  s.source           = { :git => 'https://github.com/TinySunline/TPUnionPay.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TinySunline/TPUnionPay.git'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'TPUnionPay' => ['TPUnionPay/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = "Foundation", "UIKit", "CFNetwork", "SystemConfiguration"
 
   s.libraries = "z", "stdc++"
